@@ -1,5 +1,5 @@
 '''
- 07.20 - LED blink with timer
+ LED blink with timer
 
  This sketch shows how to blink an LED connected to GPIO 21 using a timer instead of a loop.
 
