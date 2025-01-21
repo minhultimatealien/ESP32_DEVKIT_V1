@@ -1,4 +1,18 @@
-from machine import Pin, PWM
+'''
+ IR Infrared obstacle avoidance sensor module
+
+ This sketch shows how to read data from a sensor
+
+ Components
+ ----------
+  - ESP32
+  - IR Infrared obstacle avoidance sensor
+  - Wires
+  - Breadboard
+
+'''
+
+from machine import Pin
 from time import sleep_ms
 
 input_pin = Pin(34,Pin.IN)
